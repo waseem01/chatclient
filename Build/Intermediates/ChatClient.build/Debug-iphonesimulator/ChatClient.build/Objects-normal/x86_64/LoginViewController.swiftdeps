@@ -7,110 +7,500 @@ provides-member:
 - ["C10ChatClient19LoginViewController", ""]
 provides-dynamic-lookup:
 - "didReceiveMemoryWarning"
+- "emailTextField"
+- "login"
+- "onLogin"
+- "onSignUp"
+- "passwordTextField"
+- "signup"
 - "viewDidLoad"
 depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- !private "ChatViewController"
 - "LoginViewController"
+- !private "PFUser"
+- "StringLiteralType"
+- !private "UIAlertController"
+- "UITextField"
 - "UIViewController"
 depends-member:
+- !private ["Ps9AnyObject", "ChatViewController"]
+- !private ["Ps9AnyObject", "PFUser"]
+- !private ["Ps9AnyObject", "UIAlertController"]
 - !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "email"]
+- !private ["Ps9AnyObject", "emailTextField"]
 - !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "logInWithUsername"]
+- !private ["Ps9AnyObject", "login"]
+- !private ["Ps9AnyObject", "password"]
+- !private ["Ps9AnyObject", "passwordTextField"]
+- !private ["Ps9AnyObject", "performSegue"]
+- !private ["Ps9AnyObject", "present"]
+- !private ["Ps9AnyObject", "signUpInBackground"]
+- !private ["Ps9AnyObject", "signup"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "username"]
 - !private ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "ChatViewController"]
+- !private ["Ps7CVarArg", "PFUser"]
+- !private ["Ps7CVarArg", "UIAlertController"]
 - !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "email"]
+- !private ["Ps7CVarArg", "emailTextField"]
 - !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "logInWithUsername"]
+- !private ["Ps7CVarArg", "login"]
+- !private ["Ps7CVarArg", "password"]
+- !private ["Ps7CVarArg", "passwordTextField"]
+- !private ["Ps7CVarArg", "performSegue"]
+- !private ["Ps7CVarArg", "present"]
+- !private ["Ps7CVarArg", "signUpInBackground"]
+- !private ["Ps7CVarArg", "signup"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "username"]
 - !private ["Ps7CVarArg", "viewDidLoad"]
 - ["Ps7CVarArg", ""]
+- !private ["C10ChatClient18ChatViewController", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "ChatViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "PFUser"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertController"]
 - !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "email"]
+- !private ["Ps28CustomDebugStringConvertible", "emailTextField"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "logInWithUsername"]
+- !private ["Ps28CustomDebugStringConvertible", "login"]
+- !private ["Ps28CustomDebugStringConvertible", "password"]
+- !private ["Ps28CustomDebugStringConvertible", "passwordTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "performSegue"]
+- !private ["Ps28CustomDebugStringConvertible", "present"]
+- !private ["Ps28CustomDebugStringConvertible", "signUpInBackground"]
+- !private ["Ps28CustomDebugStringConvertible", "signup"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "username"]
 - !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "ChatViewController"]
+- !private ["Ps23CustomStringConvertible", "PFUser"]
+- !private ["Ps23CustomStringConvertible", "UIAlertController"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "email"]
+- !private ["Ps23CustomStringConvertible", "emailTextField"]
 - !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "logInWithUsername"]
+- !private ["Ps23CustomStringConvertible", "login"]
+- !private ["Ps23CustomStringConvertible", "password"]
+- !private ["Ps23CustomStringConvertible", "passwordTextField"]
+- !private ["Ps23CustomStringConvertible", "performSegue"]
+- !private ["Ps23CustomStringConvertible", "present"]
+- !private ["Ps23CustomStringConvertible", "signUpInBackground"]
+- !private ["Ps23CustomStringConvertible", "signup"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "username"]
 - !private ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "ChatViewController"]
+- !private ["Ps9Equatable", "PFUser"]
+- !private ["Ps9Equatable", "UIAlertController"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "alert"]
 - !private ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "email"]
+- !private ["Ps9Equatable", "emailTextField"]
 - !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "logInWithUsername"]
+- !private ["Ps9Equatable", "login"]
+- !private ["Ps9Equatable", "password"]
+- !private ["Ps9Equatable", "passwordTextField"]
+- !private ["Ps9Equatable", "performSegue"]
+- !private ["Ps9Equatable", "present"]
+- !private ["Ps9Equatable", "signUpInBackground"]
+- !private ["Ps9Equatable", "signup"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "username"]
 - !private ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "ChatViewController"]
+- !private ["Ps8Hashable", "PFUser"]
+- !private ["Ps8Hashable", "UIAlertController"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "alert"]
 - !private ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "email"]
+- !private ["Ps8Hashable", "emailTextField"]
 - !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "logInWithUsername"]
+- !private ["Ps8Hashable", "login"]
+- !private ["Ps8Hashable", "password"]
+- !private ["Ps8Hashable", "passwordTextField"]
+- !private ["Ps8Hashable", "performSegue"]
+- !private ["Ps8Hashable", "present"]
+- !private ["Ps8Hashable", "signUpInBackground"]
+- !private ["Ps8Hashable", "signup"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "username"]
 - !private ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", ""]
+- !private ["C10ChatClient19LoginViewController", "ChatViewController"]
+- !private ["C10ChatClient19LoginViewController", "PFUser"]
+- !private ["C10ChatClient19LoginViewController", "UIAlertController"]
+- ["C10ChatClient19LoginViewController", "UITextField"]
 - ["C10ChatClient19LoginViewController", "deinit"]
 - ["C10ChatClient19LoginViewController", "didReceiveMemoryWarning"]
+- ["C10ChatClient19LoginViewController", "emailTextField"]
 - ["C10ChatClient19LoginViewController", "init"]
+- ["C10ChatClient19LoginViewController", "login"]
+- ["C10ChatClient19LoginViewController", "onLogin"]
+- ["C10ChatClient19LoginViewController", "onSignUp"]
+- ["C10ChatClient19LoginViewController", "passwordTextField"]
+- !private ["C10ChatClient19LoginViewController", "performSegue"]
+- !private ["C10ChatClient19LoginViewController", "present"]
+- ["C10ChatClient19LoginViewController", "signup"]
 - ["C10ChatClient19LoginViewController", "viewDidLoad"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "ChatViewController"]
+- !private ["PSo8NSCoding", "PFUser"]
+- !private ["PSo8NSCoding", "UIAlertController"]
 - !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "emailTextField"]
 - !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "login"]
+- !private ["PSo8NSCoding", "passwordTextField"]
+- !private ["PSo8NSCoding", "performSegue"]
+- !private ["PSo8NSCoding", "present"]
+- !private ["PSo8NSCoding", "signup"]
+- !private ["PSo8NSCoding", "text"]
 - !private ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "ChatViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "PFUser"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertController"]
 - !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "emailTextField"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "login"]
+- !private ["PSo26NSExtensionRequestHandling", "passwordTextField"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegue"]
+- !private ["PSo26NSExtensionRequestHandling", "present"]
+- !private ["PSo26NSExtensionRequestHandling", "signup"]
 - !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "ChatViewController"]
+- !private ["CSo8NSObject", "PFUser"]
+- !private ["CSo8NSObject", "UIAlertController"]
+- ["CSo8NSObject", "UITextField"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "email"]
+- ["CSo8NSObject", "emailTextField"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "logInWithUsername"]
+- ["CSo8NSObject", "login"]
+- ["CSo8NSObject", "onLogin"]
+- ["CSo8NSObject", "onSignUp"]
+- !private ["CSo8NSObject", "password"]
+- ["CSo8NSObject", "passwordTextField"]
+- !private ["CSo8NSObject", "performSegue"]
+- !private ["CSo8NSObject", "present"]
+- !private ["CSo8NSObject", "signUpInBackground"]
+- ["CSo8NSObject", "signup"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "username"]
 - ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "ChatViewController"]
+- !private ["PSo16NSObjectProtocol", "PFUser"]
+- !private ["PSo16NSObjectProtocol", "UIAlertController"]
 - !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "email"]
+- !private ["PSo16NSObjectProtocol", "emailTextField"]
 - !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "logInWithUsername"]
+- !private ["PSo16NSObjectProtocol", "login"]
+- !private ["PSo16NSObjectProtocol", "password"]
+- !private ["PSo16NSObjectProtocol", "passwordTextField"]
+- !private ["PSo16NSObjectProtocol", "performSegue"]
+- !private ["PSo16NSObjectProtocol", "present"]
+- !private ["PSo16NSObjectProtocol", "signUpInBackground"]
+- !private ["PSo16NSObjectProtocol", "signup"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "username"]
 - !private ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8PFObject", "email"]
+- !private ["CSo8PFObject", "init"]
+- !private ["CSo8PFObject", "logInWithUsername"]
+- !private ["CSo8PFObject", "password"]
+- !private ["CSo8PFObject", "signUpInBackground"]
+- !private ["CSo8PFObject", "username"]
+- !private ["PSo13PFSubclassing", "email"]
+- !private ["PSo13PFSubclassing", "init"]
+- !private ["PSo13PFSubclassing", "logInWithUsername"]
+- !private ["PSo13PFSubclassing", "password"]
+- !private ["PSo13PFSubclassing", "signUpInBackground"]
+- !private ["PSo13PFSubclassing", "username"]
+- !private ["CSo6PFUser", "email"]
+- !private ["CSo6PFUser", "init"]
+- !private ["CSo6PFUser", "logInWithUsername"]
+- !private ["CSo6PFUser", "password"]
+- !private ["CSo6PFUser", "signUpInBackground"]
+- !private ["CSo6PFUser", "username"]
+- !private ["Ps16RawRepresentable", "alert"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["CSo17UIAlertController", "init"]
+- !private ["OSC22UIAlertControllerStyle", "alert"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "ChatViewController"]
+- !private ["PSo21UIAppearanceContainer", "PFUser"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertController"]
 - !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "emailTextField"]
 - !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "login"]
+- !private ["PSo21UIAppearanceContainer", "passwordTextField"]
+- !private ["PSo21UIAppearanceContainer", "performSegue"]
+- !private ["PSo21UIAppearanceContainer", "present"]
+- !private ["PSo21UIAppearanceContainer", "signup"]
+- !private ["PSo21UIAppearanceContainer", "text"]
 - !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "ChatViewController"]
+- !private ["PSo18UIContentContainer", "PFUser"]
+- !private ["PSo18UIContentContainer", "UIAlertController"]
 - !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "emailTextField"]
 - !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "login"]
+- !private ["PSo18UIContentContainer", "passwordTextField"]
+- !private ["PSo18UIContentContainer", "performSegue"]
+- !private ["PSo18UIContentContainer", "present"]
+- !private ["PSo18UIContentContainer", "signup"]
 - !private ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "ChatViewController"]
+- !private ["PSo18UIFocusEnvironment", "PFUser"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertController"]
 - !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "emailTextField"]
 - !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "login"]
+- !private ["PSo18UIFocusEnvironment", "passwordTextField"]
+- !private ["PSo18UIFocusEnvironment", "performSegue"]
+- !private ["PSo18UIFocusEnvironment", "present"]
+- !private ["PSo18UIFocusEnvironment", "signup"]
+- !private ["PSo18UIFocusEnvironment", "text"]
 - !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo11UIResponder", "ChatViewController"]
+- !private ["CSo11UIResponder", "PFUser"]
+- !private ["CSo11UIResponder", "UIAlertController"]
+- ["CSo11UIResponder", "UITextField"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "emailTextField"]
 - ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "login"]
+- ["CSo11UIResponder", "onLogin"]
+- ["CSo11UIResponder", "onSignUp"]
+- ["CSo11UIResponder", "passwordTextField"]
+- !private ["CSo11UIResponder", "performSegue"]
+- !private ["CSo11UIResponder", "present"]
+- ["CSo11UIResponder", "signup"]
+- !private ["CSo11UIResponder", "text"]
 - ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "ChatViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "PFUser"]
+- !private ["PSo30UIResponderStandardEditActions", "UIAlertController"]
 - !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "emailTextField"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "login"]
+- !private ["PSo30UIResponderStandardEditActions", "passwordTextField"]
+- !private ["PSo30UIResponderStandardEditActions", "performSegue"]
+- !private ["PSo30UIResponderStandardEditActions", "present"]
+- !private ["PSo30UIResponderStandardEditActions", "signup"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
 - !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
 - ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo16UIStateRestoring", "ChatViewController"]
+- !private ["PSo16UIStateRestoring", "PFUser"]
+- !private ["PSo16UIStateRestoring", "UIAlertController"]
 - !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "emailTextField"]
 - !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "login"]
+- !private ["PSo16UIStateRestoring", "passwordTextField"]
+- !private ["PSo16UIStateRestoring", "performSegue"]
+- !private ["PSo16UIStateRestoring", "present"]
+- !private ["PSo16UIStateRestoring", "signup"]
 - !private ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
+- !private ["PSo21UITableViewDataSource", "init"]
+- !private ["PSo19UITableViewDelegate", "init"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "ChatViewController"]
+- !private ["PSo18UITraitEnvironment", "PFUser"]
+- !private ["PSo18UITraitEnvironment", "UIAlertController"]
 - !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "emailTextField"]
 - !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "login"]
+- !private ["PSo18UITraitEnvironment", "passwordTextField"]
+- !private ["PSo18UITraitEnvironment", "performSegue"]
+- !private ["PSo18UITraitEnvironment", "present"]
+- !private ["PSo18UITraitEnvironment", "signup"]
+- !private ["PSo18UITraitEnvironment", "text"]
 - !private ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "ChatViewController"]
+- !private ["CSo16UIViewController", "PFUser"]
+- !private ["CSo16UIViewController", "UIAlertController"]
+- ["CSo16UIViewController", "UITextField"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "emailTextField"]
 - ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "login"]
+- ["CSo16UIViewController", "onLogin"]
+- ["CSo16UIViewController", "onSignUp"]
+- ["CSo16UIViewController", "passwordTextField"]
+- !private ["CSo16UIViewController", "performSegue"]
+- !private ["CSo16UIViewController", "present"]
+- ["CSo16UIViewController", "signup"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "ChatViewController"]
+- !private ["Ps9_Hashable", "PFUser"]
+- !private ["Ps9_Hashable", "UIAlertController"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "alert"]
 - !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "email"]
+- !private ["Ps9_Hashable", "emailTextField"]
 - !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "logInWithUsername"]
+- !private ["Ps9_Hashable", "login"]
+- !private ["Ps9_Hashable", "password"]
+- !private ["Ps9_Hashable", "passwordTextField"]
+- !private ["Ps9_Hashable", "performSegue"]
+- !private ["Ps9_Hashable", "present"]
+- !private ["Ps9_Hashable", "signUpInBackground"]
+- !private ["Ps9_Hashable", "signup"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "username"]
 - !private ["Ps9_Hashable", "viewDidLoad"]
 - ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
 - "Ps7CVarArg"
+- !private "C10ChatClient18ChatViewController"
+- !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - "Ps8Hashable"
 - "C10ChatClient19LoginViewController"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
 - "PSo8NSCoding"
+- !private "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo8PFObject"
+- !private "PSo13PFSubclassing"
+- !private "CSo6PFUser"
+- !private "Ps16RawRepresentable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo17UIAlertController"
+- !private "OSC22UIAlertControllerStyle"
+- !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
 - "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
+- !private "PSo20UIScrollViewDelegate"
 - "PSo16UIStateRestoring"
+- !private "PSo21UITableViewDataSource"
+- !private "PSo19UITableViewDelegate"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
 - "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
 - "CSo16UIViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -182,4 +572,4 @@ depends-external:
 - "/Users/zengr/dev/ios/codepath2/chatclient/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/Parse-umbrella.h"
 - "/Users/zengr/dev/ios/codepath2/chatclient/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
-interface-hash: "d49a34d7e628763976da8560cf5b5728"
+interface-hash: "053a32f6f6c15f2978588f81e283fccd"
