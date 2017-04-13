@@ -55,7 +55,7 @@ class LoginViewController: UIViewController {
         PFUser.logInWithUsername(inBackground: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
             if user != nil {
                 let chatViewController = ChatViewController()
-                self.navigationController?.pushViewController(chatViewController, animated: true)
+                self.performSegue(withIdentifier: "ChatViewController", sender: self)
             } else {
                 //show alert again
             }

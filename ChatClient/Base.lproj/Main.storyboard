@@ -72,17 +72,17 @@
                     <connections>
                         <outlet property="emailTextField" destination="kCp-3B-1n2" id="Y28-59-Aw5"/>
                         <outlet property="passwordTextField" destination="elb-49-xwK" id="860-F0-lX0"/>
-                        <segue destination="a0l-Dq-Ehg" kind="presentation" id="P0n-4o-ki7"/>
+                        <segue destination="28z-OE-VKC" kind="presentation" identifier="ChatViewController" id="P0n-4o-ki7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1214" y="-342"/>
         </scene>
-        <!--Chat View Controller-->
+        <!--Chat-->
         <scene sceneID="cG6-jX-c2V">
             <objects>
-                <viewController id="a0l-Dq-Ehg" customClass="ChatViewController" customModule="ChatClient" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Chat" id="a0l-Dq-Ehg" customClass="ChatViewController" customModule="ChatClient" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cgd-Yn-VVv"/>
                         <viewControllerLayoutGuide type="bottom" id="QzJ-Bt-kfL"/>
@@ -90,12 +90,33 @@
                     <view key="view" contentMode="scaleToFill" id="ux7-XB-twJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="127-zB-dpz">
+                                <rect key="frame" x="0.0" y="64" width="375" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GvL-6b-Bja">
+                                <rect key="frame" x="169" y="114" width="36" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Send"/>
+                                <connections>
+                                    <action selector="sendMessage:" destination="a0l-Dq-Ehg" eventType="touchUpInside" id="zQk-G2-NYJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="bnt-WB-g38"/>
+                    <connections>
+                        <outlet property="messageText" destination="127-zB-dpz" id="fdN-Vv-iPN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BbK-bn-Jsd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-376.80000000000001" y="-342.27886056971516"/>
+            <point key="canvasLocation" x="562.39999999999998" y="-342.27886056971516"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="HCS-OE-duh">
@@ -114,6 +135,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FFl-Ht-Aj0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2311.1999999999998" y="-331.48425787106447"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Y14-bQ-s81">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="28z-OE-VKC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qXf-Kr-VBm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="a0l-Dq-Ehg" kind="relationship" relationship="rootViewController" id="noE-Zr-aTZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zgu-1M-g2G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-376.80000000000001" y="-342.27886056971516"/>
         </scene>
     </scenes>
 </document>
