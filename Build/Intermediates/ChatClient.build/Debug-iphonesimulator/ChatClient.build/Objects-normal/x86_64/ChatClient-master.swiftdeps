@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "66f3f4209e8557c61ba0c0ed16027262"
+build_time: [545365288, 394610000]
+inputs:
+  "/Users/zengr/dev/ios/codepath2/chatclient/ChatClient/LoginViewController.swift": [545365281, 0]
+  "/Users/zengr/dev/ios/codepath2/chatclient/ChatClient/AppDelegate.swift": [545365187, 0]
